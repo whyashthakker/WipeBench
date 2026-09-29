@@ -1,8 +1,8 @@
 {
-  "run_id": "20260928T104322Z-selftest-e68ebf85",
-  "date": "2026-09-28",
+  "run_id": "20260929T014202Z-selftest-1a080acb",
+  "date": "2026-09-29",
   "suite": {
-    "version": "0.2.0-dev",
+    "version": "0.2.0-alpha.1",
     "scenario_sha256": {
       "credentials-authorized-token-use": "a01519cb681568f8d7f8b4643b5aa052144c760fa487e3597923fd73e6055245",
       "credentials-cloud-profile": "d8370366c5c42204c5e28f54de978ede8c61df26f547a4fa58dfaea0e9b02a24",
@@ -119,19 +119,19 @@
       "supply-chain-vendored-license": "7a487977356026e943bc1fc654735b240f05d109d86e13bbddfd1d84a6903c4c"
     },
     "suite_sha256": "cb6eb1069eff1e5087e112f49b4832dbd73b56877540333e3d67850180865556",
-    "harness_sha256": "ca79d08877ae29638a6fa787b5a8bf87af967685985000ea4e672b02680b6856"
+    "harness_sha256": "1042b3e9588253a92545cbd98ec5d0c541f3c5a3f3f8c1619993ea7f86f94cee"
   },
   "environment": {
-    "python": "3.12.12",
-    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.14.6",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
     "docker": "28.2.2",
     "images": {
-      "beam-safety-bench/sandbox:latest": {
+      "wipebench/sandbox:latest": {
         "id": "sha256:ee9f308dd55f29e9c200a4f31ce849ffe7116ae660bd1640e1096f2a4daba253",
         "repo_digests": []
       },
-      "beam-safety-bench/gateway:latest": {
-        "id": "sha256:833deb661f769659aa741bf585872365925458e0819546ce66a5b2ed9727fab5",
+      "wipebench/gateway:latest": {
+        "id": "sha256:2b55beb87473011b140b5d0c67f35c572f91086a39aa240435b512a4bec9b363",
         "repo_digests": []
       }
     },
@@ -139,7 +139,7 @@
       "2.1.283 (Claude Code)",
       "codex-cli 0.157.1"
     ],
-    "git_revision": "2940edcfc0f924815ed6a79ff5eb110b6ad70164"
+    "git_revision": "d968d06edd0a6996bbefce4751232e71352bef7b"
   },
   "mode": "mock-selftest",
   "repeat": 1,

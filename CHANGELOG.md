@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0-alpha.1 — 2026-09-28
+## 0.2.0-alpha.1 — 2026-09-29
 
 First standalone WipeBench alpha, by AgentBeam in collaboration with ExplainX.ai.
 
